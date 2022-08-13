@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verify Account: UI</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="top"></div>
+    <div class="mid">
+      <div class="left"></div>
+
+      <div class="centre">
+        <section class="login-title">
+          <h2>Verify Your Account</h2>
+        </section>
+
+        <section class="login-description">
+          <p>
+            We emailed you the six digit code to cool_guy@email.com Enter the
+            code below to confirm your email address.
+          </p>
+        </section>
+
+        <section class="login-otp">
+          <form
+            method="get"
+            class="digit-group"
+            data-group-name="digits"
+            data-autosubmit="false"
+            autocomplete="off"
+          >
+            <input
+              type="text"
+              id="digit-1"
+              name="digit-1"
+              placeholder="0"
+              maxlength="1"
+            />
+            <input
+              type="text"
+              id="digit-2"
+              name="digit-2"
+              placeholder="0"
+              maxlength="1"
+            />
+            <input
+              type="text"
+              id="digit-3"
+              name="digit-3"
+              placeholder="0"
+              maxlength="1"
+            />
+            <input
+              type="text"
+              id="digit-4"
+              name="digit-4"
+              placeholder="0"
+              maxlength="1"
+            />
+            <input
+              type="text"
+              id="digit-5"
+              name="digit-5"
+              placeholder="0"
+              maxlength="1"
+            />
+            <input
+              type="text"
+              id="digit-6"
+              name="digit-6"
+              placeholder="0"
+              maxlength="1"
+            />
+          </form>
+        </section>
+
+        <section class="login-disclaimer">
+          <p class="disclaimer">
+            This is design only. We didn't actually send you an email as we
+            don't have your email, right?
+          </p>
+        </section>
+      </div>
+
+      <div class="right"></div>
+    </div>
+    <div class="bottom"></div>
+  </body>
+</html>
